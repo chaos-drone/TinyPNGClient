@@ -8,7 +8,7 @@
             "email": "pavepet@gmail.com"
         }
     ],
-    "version": "1.0.0",
+    "version": "1.0.2",
     "require": {
         "php": ">=5.3",
         "php-curl-class/php-curl-class": "dev-master"
