@@ -1,0 +1,25 @@
+{
+    "name": "chaos-drone/tinypng-client",
+    "description": "An API client for the TinyPNG and TinyJPG services.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pavel Petrov",
+            "email": "pavepet@gmail.com"
+        }
+    ],
+    "version": "0.1.0",
+    "require": {
+        "php": ">=5.3",
+        "php-curl-class/php-curl-class": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.7.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cadrone\\TinyPNGClient\\": "src/"
+        }
+    },
+}
